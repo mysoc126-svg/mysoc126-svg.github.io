@@ -8,7 +8,7 @@
 ### ZCreator
 (Текущая версия приложения 5.12)
 
-![Screen](https://github.com/mysoc126-svg/ZCreator/blob/main/ZCreator.png)
+![Screen](https://mysoc126-svg.github.io/ZCreator.png)
 
 Данная утилита предназначена для сборки (и разборки) ромов игр в формат ZMD/ZFC/ZSF/ZGB/ZPC/ZFB для игровых приставок:
  ZMD (сега или денди)
@@ -50,6 +50,6 @@
 ### Foldername
 (Текущая версия приложения 1.5)
 
-![Screen](https://github.com/mysoc126-svg/ZCreator/blob/main/Foldermane.png)
+![Screen](https://mysoc126-svg.github.io/Foldermane.png)
 
 Полноценный графический редактор foldername.ini, который позволяет проверить/настроить навигацию по меню, редактировать цвета текста в категориях, положение и размеры обложки, курсора, названия папок и т.д. с полным графическим отображением вносимых изменений
