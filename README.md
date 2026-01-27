@@ -34,7 +34,7 @@
 ### PBitmap_AC
 (Текущая версия приложения 2.2)
 
-![Screen](https://github.com/mysoc126-svg/ZCreator/blob/main/Pbitmap.png)
+![Screen](https://github.com/mysoc126-svg/mysoc126-svg.github.io/blob/main/Pbitmap.png)
 
 Программа для замены изображений фона игрового меню.
 
