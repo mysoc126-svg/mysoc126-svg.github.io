@@ -34,7 +34,7 @@
 ### [Скачать](https://mysoc126-svg.github.io/ZCreator.exe)
 
 ### PBitmap_AC
-(Текущая версия приложения 2.2)
+(Текущая версия приложения 2.3)
 
 ![Screen](https://mysoc126-svg.github.io/Pbitmap.png)
 
@@ -49,7 +49,7 @@
 
 Поддержка прозрачности для кнопок Yes No и Курсора
 
-### [Скачать](https://mysoc126-svg.github.io/PBitmap_AC(v2.2).exe)
+### [Скачать](https://mysoc126-svg.github.io/PBitmap_AC.exe)
 
 ### Foldername
 (Текущая версия приложения 1.5)
