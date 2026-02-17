@@ -63,7 +63,7 @@
 ### ZES
 (Текущая версия приложения 1.2)
 
-![Screen](https://mysoc126-svg.github.io/Zes.png)
+![Screen](https://mysoc126-svg.github.io/ZES.png)
 
 Утилита для сборки *.zes файлов, извлечения из них png обложки и zip архива с игрой и конвертирование из ZES в ZFC и наоборот
 
