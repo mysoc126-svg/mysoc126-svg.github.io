@@ -3,105 +3,41 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Data Frog</title>
+    <title>mysoc126-svg</title>
     <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
-<link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'><link rel="stylesheet" href="./style.css">
 
   </head>
     
   <body>
-  <h1>mysoc126-svg</h1>
-<div class="tab-wrap">
-  
-    <input type="radio" name="tabs" id="tab1" checked>
-    <div class="tab-label-content" id="tab1-content">
-      <label for="tab1">ZCreator</label>
-      <div class="tab-content">
-	  (Текущая версия приложения 6.1)<br><br>
-
-<img src="/ZCreator.png"><br><br>
-
-Данная утилита предназначена для сборки (и разборки) ромов игр в формат ZMD/ZFC/ZSF/ZGB/ZPC/ZFB для игровых приставок:<br>
- ZMD (сега или денди)<br>
- ZFC (денди)<br>
- ZSF (супер нинтендо)<br>
- ZGB (гейм бой)<br>
- ZPC (pc engine)<br>
- ZFB (arcade)<br><br>
- 
-Ромы игр могут быть в виде:<br>
- *.bin;*.gen;*.md;*.smd (сега)<br>
- *.nes;*.nfc;*.fds;*.fc (денди)<br>
- *.fig;*.sfc;*.smc;*.swc (супер нинтендо)<br>
- *.gb;*.gbc;*.gba (гейм бой)<br>
- *.pce (pc engine)<br><br>
- 
-Рекомендуется вместе с ромом игры добавлять и обложку в формате bmp/png/jpg.<br><br>
-
-Примечание: для последующей переупаковки ранее извлеченного рома, не забудьте сначала вытащить его из zip-архива.<br><br>
-
-Технически форматы ZMD/ZFC/ZSF/ZGB/ZPC/ZFB между собой совместимы. То есть, допустимо, например, ZFC файл переименовать в ZMD.<br><br>
-
-<a href="/ZCreator.exe">Скачать</a><br><br></div>
-	  </div>
-     
-    <input type="radio" name="tabs" id="tab2">
-    <div class="tab-label-content" id="tab2-content">
-      <label for="tab2">PBitmap_AC</label>
-      <div class="tab-content">
-	  (Текущая версия приложения 2.3)<br><br>
-
-<img src="/Pbitmap.png" width="100%"><br><br>
-
-Программа для замены изображений фона игрового меню.<br><br>
-
-  Размеры изображений:<br>
-  - Главный фон (853х480)<br>
-  - Меню настроек (256х480)<br>
-  - Прочее (597х80)<br>
-  - Кнопки Yes No (217х37)<br>
-  - Курсор (смотри в Foldername.ini)<br><br>
-
-Поддержка прозрачности для кнопок Yes No и Курсора<br><br>
-
-<a href="/PBitmap_AC.exe">Скачать</a><br><br></div>
-	  </div>
-    
-    <input type="radio" name="tabs" id="tab3">
-    <div class="tab-label-content" id="tab3-content">
-      <label for="tab3">Foldername</label>
-      <div class="tab-content">
-	  (Текущая версия приложения 1.5)<br><br>
-
-<img src="/Foldermane.png" width="100%"><br><br>
-
-Полноценный графический редактор foldername.ini, который позволяет проверить/настроить навигацию по меню, редактировать цвета текста в категориях, положение и размеры обложки, курсора, названия папок и т.д. с полным графическим отображением вносимых изменений<br><br>
-
-<a href="/Foldername(v1.5).exe">Скачать</a><br><br></div>
-	  </div>
-  
-     <input type="radio" name="tabs" id="tab4">
-     <div class="tab-label-content" id="tab4-content">
-      <label for="tab4">Разработка</label>
-      <div class="tab-content">Набор программ для работы с ресурсами игровых приставок:<br><br>
-
-Data Frog Y2 SG<br>
-DEXP RetroGAME Flash 2<br>
-DEXP RetroGAME 6<br>
-SG800<br>
-Прочие… (с аналогичной прошивкой)<br><br>
-
-Связаться со <a href="https://4pda.to/forum/index.php?showuser=5114893">мной</a> можно <a href="https://4pda.to/forum/index.php?act=qms&mid=5114893">тут</a><br><br></div>
+  <div class="tabs">
+  <div class="tabs-header">
+    <div class="border"></div>
+    <ul>
+      <li class="active"><a href="#tab-1" tab-id="1" ripple="ripple" ripple-color="#FFF">ZCreator</a></li>
+      <li><a href="#tab-2" tab-id="2" ripple="ripple" ripple-color="#FFF">PBitmap_AC</a></li>
+      <li><a href="#tab-3" tab-id="3" ripple="ripple" ripple-color="#FFF">Foldername</a></li>
+      <li><a href="#tab-4" tab-id="4" ripple="ripple" ripple-color="#FFF">ZES</a></li>
+      <li><a href="#tab-5" tab-id="5" ripple="ripple" ripple-color="#FFF">Converter</a></li>
+      <li><a href="#tab-8" tab-id="6" ripple="ripple" ripple-color="#FFF">Разработка</a></li>
+	 
+    </ul>
+    <nav class="tabs-nav"><i class="material-icons" id="prev" ripple="ripple" ripple-color="#FFF">&#xE314;</i><i class="material-icons" id="next" ripple="ripple" ripple-color="#FFF">&#xE315;</i></nav>
+  </div>
+  <div class="tabs-content">
+    <div class="tab active" tab-id="1">(Текущая версия приложения 6.1)<br><br><img src="/ZCreator.png"><br><br>Данная утилита предназначена для сборки (и разборки) ромов игр в формат ZMD/ZFC/ZSF/ZGB/ZPC/ZFB для игровых приставок:<br>ZMD (сега или денди)<br>ZFC (денди)<br>ZSF (супер нинтендо)<br>ZGB (гейм бой)<br>ZPC (pc engine)<br>ZFB (arcade)<br><br>Ромы игр могут быть в виде:<br>*.bin;*.gen;*.md;*.smd (сега)<br>*.nes;*.nfc;*.fds;*.fc (денди)<br>*.fig;*.sfc;*.smc;*.swc (супер нинтендо)<br>*.gb;*.gbc;*.gba (гейм бой)<br>*.pce (pc engine)<br><br>Рекомендуется вместе с ромом игры добавлять и обложку в формате bmp/png/jpg.<br><br>Примечание: для последующей переупаковки ранее извлеченного рома, не забудьте сначала вытащить его из zip-архива.<br><br>Технически форматы ZMD/ZFC/ZSF/ZGB/ZPC/ZFB между собой совместимы. То есть, допустимо, например, ZFC файл переименовать в ZMD.<br><br><a href="/ZCreator.exe">Скачать</a><br><br></div>
+    <div class="tab" tab-id="2">(Текущая версия приложения 2.3)<br><br><img src="/Pbitmap.png" width="100%"><br><br>Программа для замены изображений фона игрового меню.<br><br>Размеры изображений:<br>- Главный фон (853х480)<br>- Меню настроек (256х480)<br>- Прочее (597х80)<br>- Кнопки Yes No (217х37)<br>- Курсор (смотри в Foldername.ini)<br><br>Поддержка прозрачности для кнопок Yes No и Курсора<br><br><a href="/PBitmap_AC.exe">Скачать</a><br><br></div>
+    <div class="tab" tab-id="3">(Текущая версия приложения 1.5)<br><br><img src="/Foldermane.png" width="100%"><br><br>Полноценный графический редактор foldername.ini, который позволяет проверить/настроить навигацию по меню, редактировать цвета текста в категориях, положение и размеры обложки, курсора, названия папок и т.д. с полным графическим отображением вносимых изменений<br><br><a href="/Foldername(v1.5).exe">Скачать</a><br><br></div>
+    <div class="tab" tab-id="4">(Текущая версия приложения 1.2)<br><br><img src="/Zes.png" width="100%"><br><br>Утилита для сборки *.zes файлов, извлечения из них png обложки и zip архива с игрой и конвертирование из ZES в ZFC и наоборот<br><br><a href="/ZES.exe">Скачать</a><br><br></div>
+    <div class="tab" tab-id="5">(Текущая версия приложения 1.2)<br><br><img src="/Converter.png" width="100%"><br><br>Приложение для конвертации формата обложки из RGB565 в BGRA без разбора игровых файлов<br><br><a href="/Converter.exe">Скачать</a><br><br></div>
+    <div class="tab" tab-id="6">Набор программ для работы с ресурсами игровых приставок:<br><br>Data Frog Y2 SG<br>DEXP RetroGAME Flash 2<br>DEXP RetroGAME 6<br>SG800<br>Прочие… (с аналогичной прошивкой)<br><br>Связаться со <a href="https://4pda.to/forum/index.php?showuser=5114893">мной</a> можно <a href="https://4pda.to/forum/index.php?act=qms&mid=5114893">тут</a><br><br></div>
     </div>
-    
-    <div class="slide"></div>
-  
+	
+  </div>
 </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://codepen.io/andytran/pen/vLmRVp.js'></script><script  src="./script.js"></script>
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
-    
   </body>
   
 </html>
